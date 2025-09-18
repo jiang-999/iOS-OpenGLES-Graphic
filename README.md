@@ -87,8 +87,7 @@ This is a demo introducing basic element with iOS OpenGLES.
     glDrawArrays(mode, 0, count);
 }
 ```
-
-![效果图](.\IMG.png)
+![效果图](IMG.png)
 
 # License
 本项目基于MIT协议开源。
