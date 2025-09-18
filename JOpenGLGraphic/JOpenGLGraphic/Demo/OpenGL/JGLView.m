@@ -37,11 +37,11 @@ GLfloat triangleVertices[] = {
 {
     EAGLContext *_context;//上下文
     CAEAGLLayer *_eaglLayer;//图层
-    GLuint _renderBuffer;
-    GLuint _frameBuffer;
+    GLuint _renderBuffer;//渲染缓冲区
+    GLuint _frameBuffer;//桢缓冲区
     
-    GLuint _program;
-    GLuint _positionShot;
+    GLuint _program;//program ID
+    GLuint _positionShot;//属性位置
 }
 
 @end
@@ -104,6 +104,7 @@ GLfloat triangleVertices[] = {
     }
 }
 
+//渲染缓冲区
 -(void)setupRenderBuffer{
     glGenRenderbuffers(1, &_renderBuffer);
     glBindRenderbuffer(GL_RENDERBUFFER, _renderBuffer);
@@ -111,6 +112,7 @@ GLfloat triangleVertices[] = {
     [_context renderbufferStorage:GL_RENDERBUFFER fromDrawable:_eaglLayer];
 }
 
+//桢缓冲区
 -(void)setupFrameBuffer{
     glGenFramebuffers(1, &_frameBuffer);
     glBindFramebuffer(GL_FRAMEBUFFER, _frameBuffer);
