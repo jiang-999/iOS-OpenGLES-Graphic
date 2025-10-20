@@ -17,6 +17,8 @@ typedef enum : NSUInteger {
     JGLView_Triangle,//三角形样式一
     JGLView_Triangle_Strip,//三角形样式二
     JGLView_Triangle_Loop,//三角形样式三
+    JGLView_Image,//图片
+    JGLView_Cube,//绘制立方体
 } JGLViewDrawType;
 
 @interface JGLView : UIView

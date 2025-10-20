@@ -18,6 +18,8 @@
 		E25072652E7BA5BF00EE20F2 /* VertexShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = E25072642E7BA5BF00EE20F2 /* VertexShader.glsl */; };
 		E25072672E7BA5D900EE20F2 /* FragmentShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = E25072662E7BA5D900EE20F2 /* FragmentShader.glsl */; };
 		E2ED0F0C2E7C019F00841BDB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E21185242E7AFCD8003680F2 /* ViewController.m */; };
+		E2F2ACB52E98A75700CEB806 /* ksMatrix.c in Sources */ = {isa = PBXBuildFile; fileRef = E2F2ACB12E98A75700CEB806 /* ksMatrix.c */; };
+		E2F2ACB62E98A75700CEB806 /* ksVector.c in Sources */ = {isa = PBXBuildFile; fileRef = E2F2ACB42E98A75700CEB806 /* ksVector.c */; };
 		E2FB605C2E7BE6930066185E /* UIButton+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FB605B2E7BE6930066185E /* UIButton+Block.m */; };
 		E2FB60602E7BF1780066185E /* UIView+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FB605F2E7BF1780066185E /* UIView+Block.m */; };
 /* End PBXBuildFile section */
@@ -41,6 +43,10 @@
 		E211853C2E7B1024003680F2 /* JGLESUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGLESUtils.m; sourceTree = "<group>"; };
 		E25072642E7BA5BF00EE20F2 /* VertexShader.glsl */ = {isa = PBXFileReference; lastKnownFileType = text; path = VertexShader.glsl; sourceTree = "<group>"; };
 		E25072662E7BA5D900EE20F2 /* FragmentShader.glsl */ = {isa = PBXFileReference; lastKnownFileType = text; path = FragmentShader.glsl; sourceTree = "<group>"; };
+		E2F2ACB12E98A75700CEB806 /* ksMatrix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ksMatrix.c; sourceTree = "<group>"; };
+		E2F2ACB22E98A75700CEB806 /* ksVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ksVector.h; sourceTree = "<group>"; };
+		E2F2ACB32E98A75700CEB806 /* ksMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ksMatrix.h; sourceTree = "<group>"; };
+		E2F2ACB42E98A75700CEB806 /* ksVector.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ksVector.c; sourceTree = "<group>"; };
 		E2FB605A2E7BE6930066185E /* UIButton+Block.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Block.h"; sourceTree = "<group>"; };
 		E2FB605B2E7BE6930066185E /* UIButton+Block.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Block.m"; sourceTree = "<group>"; };
 		E2FB605E2E7BF1780066185E /* UIView+Block.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Block.h"; sourceTree = "<group>"; };
@@ -110,6 +116,10 @@
 				E21185392E7B0F71003680F2 /* JGLView.m */,
 				E211853B2E7B1024003680F2 /* JGLESUtils.h */,
 				E211853C2E7B1024003680F2 /* JGLESUtils.m */,
+				E2F2ACB12E98A75700CEB806 /* ksMatrix.c */,
+				E2F2ACB32E98A75700CEB806 /* ksMatrix.h */,
+				E2F2ACB42E98A75700CEB806 /* ksVector.c */,
+				E2F2ACB22E98A75700CEB806 /* ksVector.h */,
 			);
 			path = OpenGL;
 			sourceTree = "<group>";
@@ -214,6 +224,8 @@
 				E2FB605C2E7BE6930066185E /* UIButton+Block.m in Sources */,
 				E21185222E7AFCD8003680F2 /* SceneDelegate.m in Sources */,
 				E211853A2E7B0F71003680F2 /* JGLView.m in Sources */,
+				E2F2ACB62E98A75700CEB806 /* ksVector.c in Sources */,
+				E2F2ACB52E98A75700CEB806 /* ksMatrix.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

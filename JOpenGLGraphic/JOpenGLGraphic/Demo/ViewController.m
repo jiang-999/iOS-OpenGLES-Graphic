@@ -209,7 +209,7 @@
 }
 
 -(NSArray *)titles{
-    return @[@"点",@"线(Lines)",@"线(Line_Strip)",@"线(Line_Loop)",@"三角形(Triangle)",@"三角形(Triangle_Strip)",@"三角形(Triangle_Loop)"];
+    return @[@"点",@"线(Lines)",@"线(Line_Strip)",@"线(Line_Loop)",@"三角形(Triangle)",@"三角形(Triangle_Strip)",@"三角形(Triangle_Loop)",@"图片",@"立方体"];
 }
 
 @end
